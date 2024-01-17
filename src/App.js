@@ -1,9 +1,17 @@
 import Routes from "./routes";
 import React from "react";
+import GlobalStyle from './styles/global';
 
 function App() {
   return (
-    <Routes/>
+
+    <>
+    
+      <GlobalStyle/>
+      <Routes/>
+    
+    </>
+  
   );
 }
 
