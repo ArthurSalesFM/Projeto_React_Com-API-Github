@@ -8,7 +8,7 @@
 
 #### Ordem de desenvolvimento do projeto (Branchs)
 
-* *main ->*
+* *main -> criandoEstilos*
 
 #### Tecnologias/Conceitos Utilizados
 
