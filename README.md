@@ -8,7 +8,7 @@
 
 #### Ordem de desenvolvimento do projeto (Branchs)
 
-* *main -> criandoEstilos -> buscando_listando_salvando-Repos -> detalhesDoRepositorio*
+* *main -> criandoEstilos -> buscando_listando_salvando-Repos -> detalhesDoRepositorio -> ExibicaoIssues*
 
 #### Tecnologias/Conceitos Utilizados
 
