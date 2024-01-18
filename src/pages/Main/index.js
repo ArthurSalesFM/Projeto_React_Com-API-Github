@@ -2,6 +2,9 @@ import React, { useState, useCallback, useEffect } from "react";
 import {Container, Form, SubmitButton, List, DeleteButton} from './styles';
 import { FaGithub, FaPlus, FaSpinner, FaBars, FaTrash } from 'react-icons/fa';
 import api from "../../services/api";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
+
+
 
 export default function Main(){
     
@@ -119,9 +122,9 @@ export default function Main(){
 
                             <span>{repo.name}</span>
 
-                            <a href="">
+                            <Link to={`/repositorio/${encodeURIComponent(repo.name)}`}>
                                 <FaBars size={20} />
-                            </a>
+                            </Link>
                         </li>
                     ))
                 }
