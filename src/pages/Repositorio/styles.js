@@ -52,6 +52,38 @@ export const Owner = styled.header`
     }
 `;
 
+export const FilterList = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 0 100px;
+
+
+    button{
+        outline: 0;
+        width: 80px;
+        height: 30px;
+        border: 0;
+        border-radius: 5%;
+        color: red;
+        box-shadow: 0 0 20px rgba(255, 0, 0, 0.7);
+        font-weight: 600;
+        transition: all 0.5s;
+        margin-left: 10px;
+    
+        &:hover{
+            background-color: red;
+            color: #FFF;
+        }
+
+        &:nth-child(${props => props.active + 1}){
+            background-color: red;
+            color: yellow;
+        }
+    
+`;
+
 export const IssuesList = styled.ul`
     margin-top: 30px;    
     list-style: none;
